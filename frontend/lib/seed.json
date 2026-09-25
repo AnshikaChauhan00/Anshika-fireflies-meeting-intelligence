@@ -1,0 +1,1965 @@
+[
+  {
+    "id": 1,
+    "title": "Product Roadmap Discussion",
+    "description": "Aligning on Q4 priorities: the analytics dashboard, mobile onboarding, and release timeline.",
+    "meeting_date": "2026-09-25T10:00:00",
+    "duration_seconds": 2700,
+    "created_at": "2026-09-25T10:00:00",
+    "updated_at": "2026-09-25T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      },
+      {
+        "id": 2,
+        "name": "Rahul Verma",
+        "email": "rahul.verma@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Rahul+Verma&background=6366F1&color=fff",
+        "role": "Engineering Lead"
+      },
+      {
+        "id": 3,
+        "name": "Priya Nair",
+        "email": "priya.nair@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Priya+Nair&background=6366F1&color=fff",
+        "role": "UX Designer"
+      },
+      {
+        "id": 4,
+        "name": "Karan Mehta",
+        "email": "karan.mehta@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Karan+Mehta&background=6366F1&color=fff",
+        "role": "Backend Engineer"
+      },
+      {
+        "id": 5,
+        "name": "Neha Kapoor",
+        "email": "neha.kapoor@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Neha+Kapoor&background=6366F1&color=fff",
+        "role": "Marketing Manager"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "roadmap"
+      },
+      {
+        "id": 2,
+        "name": "product"
+      },
+      {
+        "id": 3,
+        "name": "planning"
+      }
+    ],
+    "overview": "The team aligned on Q4 priorities, agreeing the analytics dashboard is the top priority for enterprise customers, alongside a redesign of the mobile onboarding flow. Engineering committed to a technical estimate by Wednesday and an internal deadline of October 15th for the first dashboard release, while design will deliver revised onboarding screens by Thursday.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 1,
+        "title": "Finalize dashboard requirements document",
+        "description": null,
+        "assignee": "Anshika Chauhan",
+        "due_date": "2026-09-28T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-25T10:00:00",
+        "updated_at": "2026-09-25T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 1,
+        "title": "Prepare technical estimate for dashboard design",
+        "description": null,
+        "assignee": "Priya Nair",
+        "due_date": "2026-09-30T10:00:00",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-09-25T10:00:00",
+        "updated_at": "2026-09-25T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 1,
+        "title": "Redesign onboarding screens",
+        "description": null,
+        "assignee": "Priya Nair",
+        "due_date": "2026-09-27T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-25T10:00:00",
+        "updated_at": "2026-09-25T10:00:00"
+      },
+      {
+        "id": 4,
+        "meeting_id": 1,
+        "title": "Schedule client review with enterprise accounts",
+        "description": null,
+        "assignee": "Neha Kapoor",
+        "due_date": "2026-10-02T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-25T10:00:00",
+        "updated_at": "2026-09-25T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 0,
+        "end_time": 8,
+        "text": "Good morning everyone, thanks for joining. Let's start with the Q4 product roadmap and align on priorities before the planning cycle closes.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Rahul Verma",
+        "start_time": 10,
+        "end_time": 17,
+        "text": "Morning. From the engineering side, we've wrapped up the infrastructure migration, so we have more bandwidth starting next sprint.",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 19,
+        "end_time": 26,
+        "text": "That's great news. I think the biggest priority is the analytics dashboard our enterprise customers have been asking for.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Karan Mehta",
+        "start_time": 28,
+        "end_time": 36,
+        "text": "I agree. I've already sketched out the data model for the dashboard. We'll need read replicas to keep the queries fast though.",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Priya Nair",
+        "start_time": 38,
+        "end_time": 45,
+        "text": "From a design perspective, I've done some early wireframes. I can share the Figma file after this call.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 47,
+        "end_time": 54,
+        "text": "Perfect. Let's also talk about the mobile app improvements. Support tickets show users are struggling with the onboarding flow.",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 56,
+        "end_time": 62,
+        "text": "Marketing has heard the same thing from beta users. A shorter onboarding would definitely help conversion.",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Priya Nair",
+        "start_time": 64,
+        "end_time": 70,
+        "text": "I can redesign the onboarding screens this week and have something ready for review by Thursday.",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Rahul Verma",
+        "start_time": 72,
+        "end_time": 78,
+        "text": "Sounds good. Karan, can you and the backend team start on the analytics dashboard API next week?",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Karan Mehta",
+        "start_time": 80,
+        "end_time": 84,
+        "text": "Yes, we should be able to finalize the technical estimate by Wednesday.",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 86,
+        "end_time": 91,
+        "text": "Great, let's finalize the dashboard requirements document first so Karan's estimate is accurate.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 93,
+        "end_time": 99,
+        "text": "Should we also revisit the pricing page? A few customers mentioned confusion around the enterprise tier.",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 101,
+        "end_time": 107,
+        "text": "Good point, let's put that on next week's agenda separately so we don't lose focus today.",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Rahul Verma",
+        "start_time": 109,
+        "end_time": 120,
+        "text": "One more thing, the analytics dashboard will need a hard deadline. If we want it in the Q4 release, we need to lock scope by end of this month.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 122,
+        "end_time": 127,
+        "text": "Agreed. Let's target October 15th as the internal deadline for the first version.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Karan Mehta",
+        "start_time": 129,
+        "end_time": 135,
+        "text": "That works for the backend. I'll flag any risks as soon as I see them.",
+        "sequence_number": 16
+      },
+      {
+        "id": 17,
+        "speaker_name": "Priya Nair",
+        "start_time": 137,
+        "end_time": 142,
+        "text": "I'll also prepare a technical estimate for the design work needed on the dashboard.",
+        "sequence_number": 17
+      },
+      {
+        "id": 18,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 144,
+        "end_time": 153,
+        "text": "Perfect. To summarize: Priya redesigns onboarding by Thursday, Karan finalizes the dashboard technical estimate by Wednesday, and we lock scope by end of month.",
+        "sequence_number": 18
+      },
+      {
+        "id": 19,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 155,
+        "end_time": 161,
+        "text": "I'll schedule a client review with two of our enterprise accounts once the dashboard wireframes are ready.",
+        "sequence_number": 19
+      },
+      {
+        "id": 20,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 163,
+        "end_time": 169,
+        "text": "Sounds like a plan. Let's schedule a follow-up next Monday to check progress. Thanks everyone.",
+        "sequence_number": 20
+      },
+      {
+        "id": 21,
+        "speaker_name": "Rahul Verma",
+        "start_time": 171,
+        "end_time": 172,
+        "text": "Sounds good, talk soon.",
+        "sequence_number": 21
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "Q4 Roadmap Kickoff",
+        "description": null,
+        "start_time": 0,
+        "end_time": 26
+      },
+      {
+        "id": 2,
+        "title": "Analytics Dashboard Planning",
+        "description": null,
+        "start_time": 28,
+        "end_time": 54
+      },
+      {
+        "id": 3,
+        "title": "Mobile Onboarding Improvements",
+        "description": null,
+        "start_time": 56,
+        "end_time": 107
+      },
+      {
+        "id": 4,
+        "title": "Timeline & Deadlines",
+        "description": null,
+        "start_time": 109,
+        "end_time": 172
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Engineering Sprint Planning",
+    "description": "Planning Sprint 24: analytics dashboard API breakdown, bug triage, and estimation.",
+    "meeting_date": "2026-09-24T10:00:00",
+    "duration_seconds": 1920,
+    "created_at": "2026-09-24T10:00:00",
+    "updated_at": "2026-09-24T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Rahul Verma",
+        "email": "rahul.verma@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Rahul+Verma&background=6366F1&color=fff",
+        "role": "Engineering Lead"
+      },
+      {
+        "id": 2,
+        "name": "Karan Mehta",
+        "email": "karan.mehta@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Karan+Mehta&background=6366F1&color=fff",
+        "role": "Backend Engineer"
+      },
+      {
+        "id": 3,
+        "name": "Aditya Rao",
+        "email": "aditya.rao@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Aditya+Rao&background=6366F1&color=fff",
+        "role": "QA Engineer"
+      },
+      {
+        "id": 4,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "engineering"
+      },
+      {
+        "id": 2,
+        "name": "sprint"
+      },
+      {
+        "id": 3,
+        "name": "planning"
+      }
+    ],
+    "overview": "Engineering planned Sprint 24 around the analytics dashboard API, splitting it into schema migration, query service, and caching layer work while deferring the export endpoint to the next sprint. The team also prioritized a flaky CI login test and a pagination bug affecting enterprise customers, with a mid-sprint demo scheduled for Thursday.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 2,
+        "title": "Fix flaky login test race condition",
+        "description": null,
+        "assignee": "Karan Mehta",
+        "due_date": "2026-09-25T10:00:00",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-09-24T10:00:00",
+        "updated_at": "2026-09-24T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 2,
+        "title": "Fix pagination bug affecting enterprise customers",
+        "description": null,
+        "assignee": "Karan Mehta",
+        "due_date": "2026-09-26T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-24T10:00:00",
+        "updated_at": "2026-09-24T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 2,
+        "title": "Set up automated regression tests for transcript search",
+        "description": null,
+        "assignee": "Aditya Rao",
+        "due_date": "2026-09-30T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-24T10:00:00",
+        "updated_at": "2026-09-24T10:00:00"
+      },
+      {
+        "id": 4,
+        "meeting_id": 2,
+        "title": "Finalize caching layer technical estimate",
+        "description": null,
+        "assignee": "Karan Mehta",
+        "due_date": "2026-09-25T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-24T10:00:00",
+        "updated_at": "2026-09-24T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Rahul Verma",
+        "start_time": 0,
+        "end_time": 7,
+        "text": "Alright team, let's plan Sprint 24. We have two weeks and the analytics dashboard API is the top priority.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Karan Mehta",
+        "start_time": 9,
+        "end_time": 16,
+        "text": "I've broken the dashboard API into four tickets: schema migration, the query service, caching layer, and the export endpoint.",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 18,
+        "end_time": 27,
+        "text": "From the product side, the export endpoint isn't required for the first release, so we can move that to Sprint 25 if needed.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Rahul Verma",
+        "start_time": 29,
+        "end_time": 35,
+        "text": "Good, that gives us more breathing room. Karan, how many story points for the schema migration?",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Karan Mehta",
+        "start_time": 37,
+        "end_time": 42,
+        "text": "I'd estimate five points. The query service is the riskiest piece, probably eight points.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Aditya Rao",
+        "start_time": 44,
+        "end_time": 54,
+        "text": "I'll need at least two days to write test cases once the query service is stable, so let's not schedule it for the very last day.",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Rahul Verma",
+        "start_time": 56,
+        "end_time": 61,
+        "text": "Noted. Let's also fix the flaky login test that's been failing intermittently in CI.",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Karan Mehta",
+        "start_time": 63,
+        "end_time": 67,
+        "text": "That one's been blocking merges. I can take a look tomorrow morning.",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Aditya Rao",
+        "start_time": 69,
+        "end_time": 79,
+        "text": "I found the root cause last week, it's a race condition in the session token refresh. I'll write it up and assign it to Karan.",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Rahul Verma",
+        "start_time": 81,
+        "end_time": 87,
+        "text": "Perfect, thanks Aditya. Let's also carry over the pagination bug from last sprint since it's still unresolved.",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 89,
+        "end_time": 95,
+        "text": "That pagination bug is affecting a few enterprise customers, so let's prioritize it early in the sprint.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Rahul Verma",
+        "start_time": 97,
+        "end_time": 104,
+        "text": "Agreed, we'll put it first. Karan, can you take that as well since you're familiar with the API layer?",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Karan Mehta",
+        "start_time": 106,
+        "end_time": 109,
+        "text": "Sure, I'll knock that out on day one.",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Aditya Rao",
+        "start_time": 111,
+        "end_time": 117,
+        "text": "I'll also set up automated regression tests for the transcript search feature since that's grown more complex.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Rahul Verma",
+        "start_time": 119,
+        "end_time": 127,
+        "text": "Good call. Let's make sure we have a staging deployment by the end of week one so QA has time to test.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 129,
+        "end_time": 135,
+        "text": "I'll join the mid-sprint demo on Thursday of week one if that works for everyone.",
+        "sequence_number": 16
+      },
+      {
+        "id": 17,
+        "speaker_name": "Rahul Verma",
+        "start_time": 137,
+        "end_time": 145,
+        "text": "Works for us. Let's also make sure the technical estimate for the caching layer is finalized before we commit to the sprint.",
+        "sequence_number": 17
+      },
+      {
+        "id": 18,
+        "speaker_name": "Karan Mehta",
+        "start_time": 147,
+        "end_time": 151,
+        "text": "I'll have that estimate ready by tomorrow end of day.",
+        "sequence_number": 18
+      },
+      {
+        "id": 19,
+        "speaker_name": "Rahul Verma",
+        "start_time": 153,
+        "end_time": 159,
+        "text": "Great, let's finalize the sprint backlog by tomorrow and kick off Monday. Thanks everyone, that's a wrap.",
+        "sequence_number": 19
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "Sprint 24 Priorities",
+        "description": null,
+        "start_time": 0,
+        "end_time": 35
+      },
+      {
+        "id": 2,
+        "title": "Estimation & Risk Assessment",
+        "description": null,
+        "start_time": 37,
+        "end_time": 54
+      },
+      {
+        "id": 3,
+        "title": "Bug Triage & CI Issues",
+        "description": null,
+        "start_time": 56,
+        "end_time": 117
+      },
+      {
+        "id": 4,
+        "title": "Sprint Logistics",
+        "description": null,
+        "start_time": 119,
+        "end_time": 159
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Marketing Strategy Meeting",
+    "description": "Planning the Q4 go-to-market push around the analytics dashboard launch.",
+    "meeting_date": "2026-09-22T10:00:00",
+    "duration_seconds": 2280,
+    "created_at": "2026-09-22T10:00:00",
+    "updated_at": "2026-09-22T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Neha Kapoor",
+        "email": "neha.kapoor@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Neha+Kapoor&background=6366F1&color=fff",
+        "role": "Marketing Manager"
+      },
+      {
+        "id": 2,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      },
+      {
+        "id": 3,
+        "name": "Vikram Singh",
+        "email": "vikram.singh@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Vikram+Singh&background=6366F1&color=fff",
+        "role": "Sales Director"
+      },
+      {
+        "id": 4,
+        "name": "Sara Thomas",
+        "email": "sara.thomas@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Sara+Thomas&background=6366F1&color=fff",
+        "role": "Customer Success Manager"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "marketing"
+      },
+      {
+        "id": 2,
+        "name": "strategy"
+      },
+      {
+        "id": 3,
+        "name": "growth"
+      }
+    ],
+    "overview": "Marketing outlined the go-to-market plan for the analytics dashboard launch, including an enterprise one-pager, an in-app announcement with email follow-up, and a launch-week webinar featuring a live product demo and customer testimonials. The team allocated a twelve thousand dollar October budget across LinkedIn ads and retargeting.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 3,
+        "title": "Draft enterprise one-pager for dashboard launch",
+        "description": null,
+        "assignee": "Neha Kapoor",
+        "due_date": "2026-09-26T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-22T10:00:00",
+        "updated_at": "2026-09-22T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 3,
+        "title": "Coordinate in-app announcement banner",
+        "description": null,
+        "assignee": "Neha Kapoor",
+        "due_date": "2026-09-28T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-22T10:00:00",
+        "updated_at": "2026-09-22T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 3,
+        "title": "Collect customer case studies for webinar",
+        "description": null,
+        "assignee": "Sara Thomas",
+        "due_date": "2026-09-30T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-22T10:00:00",
+        "updated_at": "2026-09-22T10:00:00"
+      },
+      {
+        "id": 4,
+        "meeting_id": 3,
+        "title": "Resolve pricing page confusion",
+        "description": null,
+        "assignee": "Neha Kapoor",
+        "due_date": "2026-09-27T10:00:00",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-09-22T10:00:00",
+        "updated_at": "2026-09-22T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 0,
+        "end_time": 6,
+        "text": "Thanks for joining. Let's map out our Q4 marketing strategy around the analytics dashboard launch.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 8,
+        "end_time": 15,
+        "text": "The dashboard should be ready for a soft launch by mid-October, so messaging needs to be ready before that.",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Vikram Singh",
+        "start_time": 17,
+        "end_time": 24,
+        "text": "From sales, our biggest ask is a one-pager we can send to enterprise prospects highlighting the new dashboard.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 26,
+        "end_time": 30,
+        "text": "I can have a draft one-pager ready by next Tuesday.",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Sara Thomas",
+        "start_time": 32,
+        "end_time": 37,
+        "text": "Customer success would love an in-app announcement too, so existing users don't miss it.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 39,
+        "end_time": 45,
+        "text": "Good idea, I'll coordinate with design on an in-app banner and a follow-up email sequence.",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Vikram Singh",
+        "start_time": 47,
+        "end_time": 53,
+        "text": "Do we have a webinar planned? That's usually our highest converting channel for feature launches.",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 55,
+        "end_time": 63,
+        "text": "Yes, I'm thinking we host a webinar the same week as launch, positioning it as Meeting Intelligence for Growing Teams.",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 65,
+        "end_time": 73,
+        "text": "I like that. Let's make sure the webinar deck includes a live demo of the transcript search and action items.",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Sara Thomas",
+        "start_time": 75,
+        "end_time": 81,
+        "text": "I can share a few customer quotes we've collected that talk about needing better meeting visibility.",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 83,
+        "end_time": 86,
+        "text": "Perfect, testimonials will help a lot with credibility.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Vikram Singh",
+        "start_time": 88,
+        "end_time": 91,
+        "text": "What's our budget for paid promotion around the launch?",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 93,
+        "end_time": 100,
+        "text": "We have twelve thousand dollars allocated for October. I'll split it between LinkedIn ads and a retargeting campaign.",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 102,
+        "end_time": 110,
+        "text": "Let's also make sure the pricing page confusion Neha mentioned last week gets resolved before we drive more traffic there.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 112,
+        "end_time": 116,
+        "text": "Agreed, I'll follow up with design on the pricing page this week.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Vikram Singh",
+        "start_time": 118,
+        "end_time": 124,
+        "text": "One more thing, can we get case studies from two or three power users before the webinar?",
+        "sequence_number": 16
+      },
+      {
+        "id": 17,
+        "speaker_name": "Sara Thomas",
+        "start_time": 126,
+        "end_time": 132,
+        "text": "I'll reach out to three accounts that have been very active with the transcript search feature.",
+        "sequence_number": 17
+      },
+      {
+        "id": 18,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 134,
+        "end_time": 140,
+        "text": "Great, let's finalize the content calendar by Friday so everyone can review before the deadline.",
+        "sequence_number": 18
+      },
+      {
+        "id": 19,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 142,
+        "end_time": 145,
+        "text": "Sounds good, let's reconvene next week to review drafts.",
+        "sequence_number": 19
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "Q4 Launch Positioning",
+        "description": null,
+        "start_time": 0,
+        "end_time": 30
+      },
+      {
+        "id": 2,
+        "title": "In-App & Email Announcements",
+        "description": null,
+        "start_time": 32,
+        "end_time": 45
+      },
+      {
+        "id": 3,
+        "title": "Webinar Planning",
+        "description": null,
+        "start_time": 47,
+        "end_time": 86
+      },
+      {
+        "id": 4,
+        "title": "Budget & Case Studies",
+        "description": null,
+        "start_time": 88,
+        "end_time": 145
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Client Requirements Discussion",
+    "description": "Discovery call with Client Co covering SSO, data retention, and export requirements.",
+    "meeting_date": "2026-09-20T10:00:00",
+    "duration_seconds": 2460,
+    "created_at": "2026-09-20T10:00:00",
+    "updated_at": "2026-09-20T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      },
+      {
+        "id": 2,
+        "name": "Sara Thomas",
+        "email": "sara.thomas@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Sara+Thomas&background=6366F1&color=fff",
+        "role": "Customer Success Manager"
+      },
+      {
+        "id": 3,
+        "name": "Rahul Verma",
+        "email": "rahul.verma@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Rahul+Verma&background=6366F1&color=fff",
+        "role": "Engineering Lead"
+      },
+      {
+        "id": 4,
+        "name": "Meera Iyer",
+        "email": "meera.iyer@clientco.example",
+        "avatar_url": "https://ui-avatars.com/api/?name=Meera+Iyer&background=6366F1&color=fff",
+        "role": "VP Operations (Client)"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "client"
+      },
+      {
+        "id": 2,
+        "name": "requirements"
+      },
+      {
+        "id": 3,
+        "name": "discovery"
+      }
+    ],
+    "overview": "Client Co outlined four core requirements for their rollout: Okta-based SSO, a configurable ninety-day transcript retention policy, CSV export of action items and summaries, and bulk user deactivation for offboarding. All requirements are achievable within the client's end-of-next-month deadline, and a rollout timeline will follow by Friday.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 4,
+        "title": "Confirm SAML SSO configuration steps for client",
+        "description": null,
+        "assignee": "Rahul Verma",
+        "due_date": "2026-09-23T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-20T10:00:00",
+        "updated_at": "2026-09-20T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 4,
+        "title": "Implement configurable transcript retention policy",
+        "description": null,
+        "assignee": "Rahul Verma",
+        "due_date": "2026-09-30T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-20T10:00:00",
+        "updated_at": "2026-09-20T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 4,
+        "title": "Build CSV export for action items and summaries",
+        "description": null,
+        "assignee": "Rahul Verma",
+        "due_date": "2026-10-02T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-20T10:00:00",
+        "updated_at": "2026-09-20T10:00:00"
+      },
+      {
+        "id": 4,
+        "meeting_id": 4,
+        "title": "Share rollout timeline with client",
+        "description": null,
+        "assignee": "Sara Thomas",
+        "due_date": "2026-09-22T10:00:00",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-09-20T10:00:00",
+        "updated_at": "2026-09-20T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Sara Thomas",
+        "start_time": 0,
+        "end_time": 6,
+        "text": "Thanks for making time today, Meera. We'd like to understand your team's requirements for the rollout.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Meera Iyer",
+        "start_time": 8,
+        "end_time": 15,
+        "text": "Of course. Our top priority is single sign-on. All our tools need to go through Okta for compliance reasons.",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Rahul Verma",
+        "start_time": 17,
+        "end_time": 24,
+        "text": "That's very doable, we already support SAML-based SSO. I can have our team confirm the exact configuration steps.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Meera Iyer",
+        "start_time": 26,
+        "end_time": 33,
+        "text": "Great. Data retention is another big one. Our legal team requires meeting transcripts to be deletable after ninety days.",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 35,
+        "end_time": 41,
+        "text": "Understood. We can add a configurable retention policy per workspace. Let me note that as a requirement.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Meera Iyer",
+        "start_time": 43,
+        "end_time": 49,
+        "text": "We'd also need to export meeting summaries and action items into our project management tool.",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Rahul Verma",
+        "start_time": 51,
+        "end_time": 59,
+        "text": "We could expose that through our API. Would a CSV export be enough to start, or do you need a live integration?",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Meera Iyer",
+        "start_time": 61,
+        "end_time": 68,
+        "text": "A CSV export would work for the first phase. A live integration would be a nice to have later.",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 70,
+        "end_time": 77,
+        "text": "Let's scope the CSV export as part of this rollout and log the live integration as a future enhancement.",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Sara Thomas",
+        "start_time": 79,
+        "end_time": 83,
+        "text": "How many users do you expect to onboard in the first month?",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Meera Iyer",
+        "start_time": 85,
+        "end_time": 91,
+        "text": "Around forty users across three departments, with room to grow to two hundred by next year.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Rahul Verma",
+        "start_time": 93,
+        "end_time": 97,
+        "text": "That's well within what our infrastructure supports without any changes.",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Meera Iyer",
+        "start_time": 99,
+        "end_time": 106,
+        "text": "One more requirement, we need admins to be able to bulk deactivate users when someone leaves the company.",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 108,
+        "end_time": 112,
+        "text": "That's already supported in our admin console, so that one is covered.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Sara Thomas",
+        "start_time": 114,
+        "end_time": 120,
+        "text": "I'll put together a rollout timeline based on today's requirements and share it with you by Friday.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Meera Iyer",
+        "start_time": 122,
+        "end_time": 128,
+        "text": "Sounds good. Our internal deadline to have everything configured is the end of next month.",
+        "sequence_number": 16
+      },
+      {
+        "id": 17,
+        "speaker_name": "Rahul Verma",
+        "start_time": 130,
+        "end_time": 136,
+        "text": "We'll make sure the SSO configuration and retention policy are ready well before that deadline.",
+        "sequence_number": 17
+      },
+      {
+        "id": 18,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 138,
+        "end_time": 145,
+        "text": "To summarize: SSO via Okta, configurable retention policy, CSV export for action items, and bulk user deactivation. All achievable.",
+        "sequence_number": 18
+      },
+      {
+        "id": 19,
+        "speaker_name": "Meera Iyer",
+        "start_time": 147,
+        "end_time": 150,
+        "text": "Perfect, thank you all. This was very helpful.",
+        "sequence_number": 19
+      },
+      {
+        "id": 20,
+        "speaker_name": "Sara Thomas",
+        "start_time": 152,
+        "end_time": 156,
+        "text": "Thanks Meera, we'll follow up with the rollout plan by Friday.",
+        "sequence_number": 20
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "SSO & Compliance Requirements",
+        "description": null,
+        "start_time": 0,
+        "end_time": 24
+      },
+      {
+        "id": 2,
+        "title": "Data Retention Policy",
+        "description": null,
+        "start_time": 26,
+        "end_time": 41
+      },
+      {
+        "id": 3,
+        "title": "Export & Integration Needs",
+        "description": null,
+        "start_time": 43,
+        "end_time": 77
+      },
+      {
+        "id": 4,
+        "title": "Rollout Timeline & Scale",
+        "description": null,
+        "start_time": 79,
+        "end_time": 156
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Weekly Team Standup",
+    "description": "Cross-functional standup covering engineering, design and QA progress for the week.",
+    "meeting_date": "2026-09-26T10:00:00",
+    "duration_seconds": 840,
+    "created_at": "2026-09-26T10:00:00",
+    "updated_at": "2026-09-26T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      },
+      {
+        "id": 2,
+        "name": "Rahul Verma",
+        "email": "rahul.verma@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Rahul+Verma&background=6366F1&color=fff",
+        "role": "Engineering Lead"
+      },
+      {
+        "id": 3,
+        "name": "Karan Mehta",
+        "email": "karan.mehta@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Karan+Mehta&background=6366F1&color=fff",
+        "role": "Backend Engineer"
+      },
+      {
+        "id": 4,
+        "name": "Priya Nair",
+        "email": "priya.nair@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Priya+Nair&background=6366F1&color=fff",
+        "role": "UX Designer"
+      },
+      {
+        "id": 5,
+        "name": "Aditya Rao",
+        "email": "aditya.rao@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Aditya+Rao&background=6366F1&color=fff",
+        "role": "QA Engineer"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "standup"
+      },
+      {
+        "id": 2,
+        "name": "weekly"
+      },
+      {
+        "id": 3,
+        "name": "sync"
+      }
+    ],
+    "overview": "The team shared quick updates: the dashboard requirements doc is complete, the pagination bug fix is in review, onboarding mockups are done pending feedback, and regression testing on transcript search is nearly finished. No major blockers were raised, and the team is on track for Thursday's mid-sprint demo.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 5,
+        "title": "Move onboarding mockups to high fidelity after feedback",
+        "description": null,
+        "assignee": "Priya Nair",
+        "due_date": "2026-09-28T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-26T10:00:00",
+        "updated_at": "2026-09-26T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 5,
+        "title": "Finish transcript search regression suite",
+        "description": null,
+        "assignee": "Aditya Rao",
+        "due_date": "2026-09-27T10:00:00",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-09-26T10:00:00",
+        "updated_at": "2026-09-26T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 5,
+        "title": "Prepare query service for Wednesday demo",
+        "description": null,
+        "assignee": "Rahul Verma",
+        "due_date": "2026-09-29T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-26T10:00:00",
+        "updated_at": "2026-09-26T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 0,
+        "end_time": 9,
+        "text": "Morning everyone, let's do a quick round of updates. I'll start, I finished the dashboard requirements doc and shared it with the team yesterday.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Rahul Verma",
+        "start_time": 11,
+        "end_time": 17,
+        "text": "On the engineering side, the team wrapped up the schema migration and started on the query service.",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Karan Mehta",
+        "start_time": 19,
+        "end_time": 26,
+        "text": "I finished the pagination bug fix and it's in code review now. I'll start the caching layer today.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Priya Nair",
+        "start_time": 28,
+        "end_time": 35,
+        "text": "I finished the onboarding redesign mockups and I'm waiting on feedback before I move to high fidelity screens.",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Aditya Rao",
+        "start_time": 37,
+        "end_time": 44,
+        "text": "I found two more edge cases in the transcript search regression tests. Nothing blocking, just logging them as tickets.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 46,
+        "end_time": 47,
+        "text": "Any blockers for anyone?",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Karan Mehta",
+        "start_time": 49,
+        "end_time": 55,
+        "text": "The staging environment was down for about an hour this morning, but it's back up now.",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Rahul Verma",
+        "start_time": 57,
+        "end_time": 61,
+        "text": "Yeah, that was a deploy issue on our end, already fixed.",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Priya Nair",
+        "start_time": 63,
+        "end_time": 68,
+        "text": "No blockers from me, just waiting on design review feedback by end of day.",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Aditya Rao",
+        "start_time": 70,
+        "end_time": 74,
+        "text": "No blockers. I should finish the regression suite by tomorrow.",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 76,
+        "end_time": 84,
+        "text": "Great. Quick reminder that the mid-sprint demo is Thursday, so let's make sure our pieces are in a demoable state by then.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Rahul Verma",
+        "start_time": 86,
+        "end_time": 90,
+        "text": "The query service should be demoable by Wednesday, so we're on track.",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Karan Mehta",
+        "start_time": 92,
+        "end_time": 97,
+        "text": "I'll make sure the caching layer at least shows partial results in the demo.",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 99,
+        "end_time": 107,
+        "text": "Perfect. Let's also remember the client rollout deadline is end of next month, so SSO work needs to stay on schedule.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Rahul Verma",
+        "start_time": 109,
+        "end_time": 111,
+        "text": "That's already in progress, no concerns there.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 113,
+        "end_time": 118,
+        "text": "Great, sounds like a productive week. Thanks everyone, see you at the demo Thursday.",
+        "sequence_number": 16
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "Individual Updates",
+        "description": null,
+        "start_time": 0,
+        "end_time": 44
+      },
+      {
+        "id": 2,
+        "title": "Blockers",
+        "description": null,
+        "start_time": 46,
+        "end_time": 74
+      },
+      {
+        "id": 3,
+        "title": "Upcoming Demo & Deadlines",
+        "description": null,
+        "start_time": 76,
+        "end_time": 118
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Project Review",
+    "description": "Quarterly retrospective on Q3 outcomes across engineering, marketing and sales.",
+    "meeting_date": "2026-09-18T10:00:00",
+    "duration_seconds": 2100,
+    "created_at": "2026-09-18T10:00:00",
+    "updated_at": "2026-09-18T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      },
+      {
+        "id": 2,
+        "name": "Rahul Verma",
+        "email": "rahul.verma@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Rahul+Verma&background=6366F1&color=fff",
+        "role": "Engineering Lead"
+      },
+      {
+        "id": 3,
+        "name": "Neha Kapoor",
+        "email": "neha.kapoor@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Neha+Kapoor&background=6366F1&color=fff",
+        "role": "Marketing Manager"
+      },
+      {
+        "id": 4,
+        "name": "Vikram Singh",
+        "email": "vikram.singh@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Vikram+Singh&background=6366F1&color=fff",
+        "role": "Sales Director"
+      },
+      {
+        "id": 5,
+        "name": "Sara Thomas",
+        "email": "sara.thomas@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Sara+Thomas&background=6366F1&color=fff",
+        "role": "Customer Success Manager"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "review"
+      },
+      {
+        "id": 2,
+        "name": "retrospective"
+      },
+      {
+        "id": 3,
+        "name": "quarterly"
+      }
+    ],
+    "overview": "Q3 delivered the transcript search feature and mobile redesign, contributing to four new enterprise deals and above-average email engagement, though the mobile redesign slipped two weeks due to unplanned SSO work. The team agreed to introduce a scoping review for inbound client requests and a standing quarterly roadmap review across sales, marketing and CS.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 6,
+        "title": "Set up quarterly roadmap review with sales, marketing, and CS",
+        "description": null,
+        "assignee": "Anshika Chauhan",
+        "due_date": "2026-09-23T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-18T10:00:00",
+        "updated_at": "2026-09-18T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 6,
+        "title": "Create scoping review process for inbound client requests",
+        "description": null,
+        "assignee": "Rahul Verma",
+        "due_date": "2026-09-25T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-18T10:00:00",
+        "updated_at": "2026-09-18T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 6,
+        "title": "Share Q4 marketing content calendar with sales",
+        "description": null,
+        "assignee": "Neha Kapoor",
+        "due_date": "2026-09-21T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-18T10:00:00",
+        "updated_at": "2026-09-18T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 0,
+        "end_time": 8,
+        "text": "Let's review how Q3 went before we finalize the Q4 roadmap. Overall we shipped the transcript search feature and the mobile redesign.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Rahul Verma",
+        "start_time": 10,
+        "end_time": 20,
+        "text": "From engineering, the transcript search rollout went smoothly. The mobile redesign took two extra weeks due to the SSO integration work that came up mid-quarter.",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 22,
+        "end_time": 28,
+        "text": "On marketing, the feature launch emails had a solid thirty-two percent open rate, above our average.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Vikram Singh",
+        "start_time": 30,
+        "end_time": 36,
+        "text": "Sales-wise, we closed four new enterprise deals this quarter, partly influenced by the transcript search feature.",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Sara Thomas",
+        "start_time": 38,
+        "end_time": 45,
+        "text": "Customer satisfaction scores also went up slightly, though we did get feedback about the onboarding flow being confusing.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 47,
+        "end_time": 51,
+        "text": "Right, that's exactly why the onboarding redesign is a priority for Q4.",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Rahul Verma",
+        "start_time": 53,
+        "end_time": 61,
+        "text": "One lesson learned, we should scope client requests earlier so unplanned work like the SSO integration doesn't slip other deadlines.",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 63,
+        "end_time": 71,
+        "text": "Agreed. Let's make sure any inbound client requirements go through a proper scoping review before we commit a sprint to them.",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Vikram Singh",
+        "start_time": 73,
+        "end_time": 79,
+        "text": "From sales, we'd love earlier visibility into what's shipping so we can time outbound campaigns better.",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 81,
+        "end_time": 87,
+        "text": "I can share the marketing content calendar with sales at the start of each quarter going forward.",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Sara Thomas",
+        "start_time": 89,
+        "end_time": 95,
+        "text": "That would help customer success too, so we can prep account managers ahead of launches.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 97,
+        "end_time": 104,
+        "text": "Let's make that official, a quarterly roadmap review with sales, marketing, and customer success before each release cycle.",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Rahul Verma",
+        "start_time": 106,
+        "end_time": 112,
+        "text": "Sounds good. Engineering will also start flagging risk earlier when unplanned work threatens a deadline.",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 114,
+        "end_time": 122,
+        "text": "Great retro. To summarize: better scoping for inbound client work, shared roadmap visibility every quarter, and continued focus on onboarding.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Vikram Singh",
+        "start_time": 124,
+        "end_time": 126,
+        "text": "Thanks everyone, good quarter overall.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Sara Thomas",
+        "start_time": 128,
+        "end_time": 130,
+        "text": "Agreed, looking forward to Q4.",
+        "sequence_number": 16
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "Q3 Outcomes Review",
+        "description": null,
+        "start_time": 0,
+        "end_time": 28
+      },
+      {
+        "id": 2,
+        "title": "Sales & Customer Feedback",
+        "description": null,
+        "start_time": 30,
+        "end_time": 51
+      },
+      {
+        "id": 3,
+        "title": "Lessons Learned",
+        "description": null,
+        "start_time": 53,
+        "end_time": 95
+      },
+      {
+        "id": 4,
+        "title": "Process Improvements",
+        "description": null,
+        "start_time": 97,
+        "end_time": 130
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sales Strategy Discussion",
+    "description": "Pipeline review and go-to-market alignment ahead of the analytics dashboard launch.",
+    "meeting_date": "2026-09-16T10:00:00",
+    "duration_seconds": 2400,
+    "created_at": "2026-09-16T10:00:00",
+    "updated_at": "2026-09-16T10:00:00",
+    "owner_id": 1,
+    "participants": [
+      {
+        "id": 1,
+        "name": "Vikram Singh",
+        "email": "vikram.singh@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Vikram+Singh&background=6366F1&color=fff",
+        "role": "Sales Director"
+      },
+      {
+        "id": 2,
+        "name": "Anshika Chauhan",
+        "email": "anshika.chauhan@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Anshika+Chauhan&background=6366F1&color=fff",
+        "role": "Product Manager"
+      },
+      {
+        "id": 3,
+        "name": "Neha Kapoor",
+        "email": "neha.kapoor@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Neha+Kapoor&background=6366F1&color=fff",
+        "role": "Marketing Manager"
+      },
+      {
+        "id": 4,
+        "name": "Sara Thomas",
+        "email": "sara.thomas@meetingnotes.app",
+        "avatar_url": "https://ui-avatars.com/api/?name=Sara+Thomas&background=6366F1&color=fff",
+        "role": "Customer Success Manager"
+      }
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "sales"
+      },
+      {
+        "id": 2,
+        "name": "strategy"
+      },
+      {
+        "id": 3,
+        "name": "pipeline"
+      }
+    ],
+    "overview": "Sales reviewed six enterprise deals in final stage, with two potentially closing next week if the analytics dashboard timeline is confirmed. The team agreed to update the competitive battlecard to highlight the transcript search differentiator, set up an early sales demo environment, and pull renewal usage data, while pricing was deferred to a dedicated review.",
+    "action_items": [
+      {
+        "id": 1,
+        "meeting_id": 7,
+        "title": "Update competitive battlecard with transcript search differentiator",
+        "description": null,
+        "assignee": "Neha Kapoor",
+        "due_date": "2026-09-19T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-16T10:00:00",
+        "updated_at": "2026-09-16T10:00:00"
+      },
+      {
+        "id": 2,
+        "meeting_id": 7,
+        "title": "Set up early demo environment for sales before dashboard launch",
+        "description": null,
+        "assignee": "Anshika Chauhan",
+        "due_date": "2026-09-25T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-16T10:00:00",
+        "updated_at": "2026-09-16T10:00:00"
+      },
+      {
+        "id": 3,
+        "meeting_id": 7,
+        "title": "Pull usage data report for renewal conversations",
+        "description": null,
+        "assignee": "Sara Thomas",
+        "due_date": "2026-09-20T10:00:00",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-09-16T10:00:00",
+        "updated_at": "2026-09-16T10:00:00"
+      },
+      {
+        "id": 4,
+        "meeting_id": 7,
+        "title": "Schedule enterprise pricing review",
+        "description": null,
+        "assignee": "Anshika Chauhan",
+        "due_date": "2026-09-22T10:00:00",
+        "status": "TODO",
+        "created_at": "2026-09-16T10:00:00",
+        "updated_at": "2026-09-16T10:00:00"
+      }
+    ],
+    "transcript": [
+      {
+        "id": 1,
+        "speaker_name": "Vikram Singh",
+        "start_time": 0,
+        "end_time": 9,
+        "text": "Let's review the pipeline. We have six enterprise deals in the final stage, and the analytics dashboard is coming up in almost every conversation.",
+        "sequence_number": 1
+      },
+      {
+        "id": 2,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 11,
+        "end_time": 15,
+        "text": "Good to hear. When is the earliest close date among those six?",
+        "sequence_number": 2
+      },
+      {
+        "id": 3,
+        "speaker_name": "Vikram Singh",
+        "start_time": 17,
+        "end_time": 24,
+        "text": "Two deals could close by end of next week if we can commit to the dashboard timeline in writing.",
+        "sequence_number": 3
+      },
+      {
+        "id": 4,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 26,
+        "end_time": 31,
+        "text": "We're targeting October 15th internally, so I'm comfortable sharing a mid-October date with prospects.",
+        "sequence_number": 4
+      },
+      {
+        "id": 5,
+        "speaker_name": "Sara Thomas",
+        "start_time": 33,
+        "end_time": 41,
+        "text": "From the customer success side, two of our existing accounts are also asking about the dashboard for their renewal conversations.",
+        "sequence_number": 5
+      },
+      {
+        "id": 6,
+        "speaker_name": "Vikram Singh",
+        "start_time": 43,
+        "end_time": 47,
+        "text": "That's helpful context. Renewals are easier when there's a clear roadmap story.",
+        "sequence_number": 6
+      },
+      {
+        "id": 7,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 49,
+        "end_time": 59,
+        "text": "I noticed a competitor announced a similar analytics feature last week. We should make sure our positioning highlights the transcript search integration since they don't have that.",
+        "sequence_number": 7
+      },
+      {
+        "id": 8,
+        "speaker_name": "Vikram Singh",
+        "start_time": 61,
+        "end_time": 66,
+        "text": "Agreed, that's a real differentiator. Can marketing update the battlecard with that comparison?",
+        "sequence_number": 8
+      },
+      {
+        "id": 9,
+        "speaker_name": "Neha Kapoor",
+        "start_time": 68,
+        "end_time": 72,
+        "text": "Yes, I'll have an updated competitive battlecard ready by Thursday.",
+        "sequence_number": 9
+      },
+      {
+        "id": 10,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 74,
+        "end_time": 80,
+        "text": "Let's also make sure sales has early access to the dashboard for demos before the public launch.",
+        "sequence_number": 10
+      },
+      {
+        "id": 11,
+        "speaker_name": "Vikram Singh",
+        "start_time": 82,
+        "end_time": 87,
+        "text": "That would be huge. Even a limited demo environment would help close deals faster.",
+        "sequence_number": 11
+      },
+      {
+        "id": 12,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 89,
+        "end_time": 94,
+        "text": "I'll coordinate with engineering to get a demo environment ready two weeks before launch.",
+        "sequence_number": 12
+      },
+      {
+        "id": 13,
+        "speaker_name": "Sara Thomas",
+        "start_time": 96,
+        "end_time": 103,
+        "text": "For renewals, would it help if I shared usage data showing how much time customers save with transcript search?",
+        "sequence_number": 13
+      },
+      {
+        "id": 14,
+        "speaker_name": "Vikram Singh",
+        "start_time": 105,
+        "end_time": 108,
+        "text": "Definitely, that's compelling ROI data for renewal conversations.",
+        "sequence_number": 14
+      },
+      {
+        "id": 15,
+        "speaker_name": "Sara Thomas",
+        "start_time": 110,
+        "end_time": 113,
+        "text": "I'll pull that usage report together this week.",
+        "sequence_number": 15
+      },
+      {
+        "id": 16,
+        "speaker_name": "Vikram Singh",
+        "start_time": 115,
+        "end_time": 122,
+        "text": "One more item, we should revisit enterprise pricing since a couple of prospects pushed back on the current tier.",
+        "sequence_number": 16
+      },
+      {
+        "id": 17,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 124,
+        "end_time": 129,
+        "text": "Let's schedule a separate pricing review next week rather than deciding that today.",
+        "sequence_number": 17
+      },
+      {
+        "id": 18,
+        "speaker_name": "Vikram Singh",
+        "start_time": 131,
+        "end_time": 134,
+        "text": "Fair enough. Let's wrap here, good pipeline momentum overall.",
+        "sequence_number": 18
+      },
+      {
+        "id": 19,
+        "speaker_name": "Anshika Chauhan",
+        "start_time": 136,
+        "end_time": 137,
+        "text": "Agreed, thanks everyone.",
+        "sequence_number": 19
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "title": "Pipeline Review",
+        "description": null,
+        "start_time": 0,
+        "end_time": 47
+      },
+      {
+        "id": 2,
+        "title": "Competitive Positioning",
+        "description": null,
+        "start_time": 49,
+        "end_time": 72
+      },
+      {
+        "id": 3,
+        "title": "Sales Enablement",
+        "description": null,
+        "start_time": 74,
+        "end_time": 113
+      },
+      {
+        "id": 4,
+        "title": "Pricing Discussion",
+        "description": null,
+        "start_time": 115,
+        "end_time": 137
+      }
+    ]
+  }
+]
